@@ -1,0 +1,13 @@
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\bin\Release\video_aula_varios_exemplos.exe.config
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\bin\Release\video_aula_varios_exemplos.exe
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\bin\Release\video_aula_varios_exemplos.pdb
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\obj\Release\video_aula_varios_exemplos.Main.resources
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\obj\Release\video_aula_varios_exemplos.manipulacao_strings.resources
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\obj\Release\video_aula_varios_exemplos.Properties.Resources.resources
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\obj\Release\video_aula_varios_exemplos.Relogio.resources
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\obj\Release\video_aula_varios_exemplos.csproj.GenerateResource.Cache
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\obj\Release\video_aula_varios_exemplos.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\obj\Release\video_aula_varios_exemplos.exe
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\obj\Release\video_aula_varios_exemplos.pdb
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\obj\Release\video_aula_varios_exemplos.csprojResolveAssemblyReference.cache
+C:\Users\yurii\source\repos\video_aula_varios_exemplos\video_aula_varios_exemplos\obj\Release\video_aula_varios_exemplos.Masked.resources

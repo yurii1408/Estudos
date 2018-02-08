@@ -1,0 +1,7 @@
+C:\Users\yurii\source\repos\BancoDeDados\BancoDeDados\bin\Debug\BancoDeDados.exe.config
+C:\Users\yurii\source\repos\BancoDeDados\BancoDeDados\bin\Debug\BancoDeDados.exe
+C:\Users\yurii\source\repos\BancoDeDados\BancoDeDados\bin\Debug\BancoDeDados.pdb
+C:\Users\yurii\source\repos\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.csprojResolveAssemblyReference.cache
+C:\Users\yurii\source\repos\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.exe
+C:\Users\yurii\source\repos\BancoDeDados\BancoDeDados\obj\Debug\BancoDeDados.pdb

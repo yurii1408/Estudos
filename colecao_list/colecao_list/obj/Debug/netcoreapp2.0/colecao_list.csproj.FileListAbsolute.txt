@@ -1,0 +1,11 @@
+C:\Users\yurii\source\repos\colecao_list\colecao_list\bin\Debug\netcoreapp2.0\colecao_list.deps.json
+C:\Users\yurii\source\repos\colecao_list\colecao_list\bin\Debug\netcoreapp2.0\colecao_list.runtimeconfig.json
+C:\Users\yurii\source\repos\colecao_list\colecao_list\bin\Debug\netcoreapp2.0\colecao_list.runtimeconfig.dev.json
+C:\Users\yurii\source\repos\colecao_list\colecao_list\bin\Debug\netcoreapp2.0\colecao_list.dll
+C:\Users\yurii\source\repos\colecao_list\colecao_list\bin\Debug\netcoreapp2.0\colecao_list.pdb
+C:\Users\yurii\source\repos\colecao_list\colecao_list\obj\Debug\netcoreapp2.0\colecao_list.csprojResolveAssemblyReference.cache
+C:\Users\yurii\source\repos\colecao_list\colecao_list\obj\Debug\netcoreapp2.0\colecao_list.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\colecao_list\colecao_list\obj\Debug\netcoreapp2.0\colecao_list.AssemblyInfoInputs.cache
+C:\Users\yurii\source\repos\colecao_list\colecao_list\obj\Debug\netcoreapp2.0\colecao_list.AssemblyInfo.cs
+C:\Users\yurii\source\repos\colecao_list\colecao_list\obj\Debug\netcoreapp2.0\colecao_list.dll
+C:\Users\yurii\source\repos\colecao_list\colecao_list\obj\Debug\netcoreapp2.0\colecao_list.pdb

@@ -1,0 +1,11 @@
+C:\Users\yurii\source\repos\Console_pratice\Console_pratice\bin\Debug\netcoreapp2.0\Console_pratice.deps.json
+C:\Users\yurii\source\repos\Console_pratice\Console_pratice\bin\Debug\netcoreapp2.0\Console_pratice.runtimeconfig.json
+C:\Users\yurii\source\repos\Console_pratice\Console_pratice\bin\Debug\netcoreapp2.0\Console_pratice.runtimeconfig.dev.json
+C:\Users\yurii\source\repos\Console_pratice\Console_pratice\bin\Debug\netcoreapp2.0\Console_pratice.dll
+C:\Users\yurii\source\repos\Console_pratice\Console_pratice\bin\Debug\netcoreapp2.0\Console_pratice.pdb
+C:\Users\yurii\source\repos\Console_pratice\Console_pratice\obj\Debug\netcoreapp2.0\Console_pratice.csprojResolveAssemblyReference.cache
+C:\Users\yurii\source\repos\Console_pratice\Console_pratice\obj\Debug\netcoreapp2.0\Console_pratice.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\Console_pratice\Console_pratice\obj\Debug\netcoreapp2.0\Console_pratice.AssemblyInfoInputs.cache
+C:\Users\yurii\source\repos\Console_pratice\Console_pratice\obj\Debug\netcoreapp2.0\Console_pratice.AssemblyInfo.cs
+C:\Users\yurii\source\repos\Console_pratice\Console_pratice\obj\Debug\netcoreapp2.0\Console_pratice.dll
+C:\Users\yurii\source\repos\Console_pratice\Console_pratice\obj\Debug\netcoreapp2.0\Console_pratice.pdb

@@ -1,0 +1,18 @@
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalarioRevisao\CalculaSalarioRevisao\bin\Debug\CalculaSalarioRevisao.exe
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalarioRevisao\CalculaSalarioRevisao\bin\Debug\CalculaSalarioRevisao.pdb
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.csprojResolveAssemblyReference.cache
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.Form1.resources
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.Properties.Resources.resources
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.csproj.GenerateResource.Cache
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.csproj.CoreCompileInputs.cache
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.exe
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.pdb
+C:\Users\yurii\source\repos\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.csprojResolveAssemblyReference.cache
+C:\Users\yurii\source\repos\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.Form1.resources
+C:\Users\yurii\source\repos\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.Properties.Resources.resources
+C:\Users\yurii\source\repos\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.csproj.GenerateResource.Cache
+C:\Users\yurii\source\repos\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.exe
+C:\Users\yurii\source\repos\CalculaSalarioRevisao\CalculaSalarioRevisao\obj\Debug\CalculaSalarioRevisao.pdb
+C:\Users\yurii\source\repos\CalculaSalarioRevisao\CalculaSalarioRevisao\bin\Debug\CalculaSalarioRevisao.exe
+C:\Users\yurii\source\repos\CalculaSalarioRevisao\CalculaSalarioRevisao\bin\Debug\CalculaSalarioRevisao.pdb

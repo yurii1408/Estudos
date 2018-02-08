@@ -1,0 +1,11 @@
+C:\Users\yurii\source\repos\Sobrecarga\Sobrecarga\bin\Debug\netcoreapp2.0\Sobrecarga.deps.json
+C:\Users\yurii\source\repos\Sobrecarga\Sobrecarga\bin\Debug\netcoreapp2.0\Sobrecarga.runtimeconfig.json
+C:\Users\yurii\source\repos\Sobrecarga\Sobrecarga\bin\Debug\netcoreapp2.0\Sobrecarga.runtimeconfig.dev.json
+C:\Users\yurii\source\repos\Sobrecarga\Sobrecarga\bin\Debug\netcoreapp2.0\Sobrecarga.dll
+C:\Users\yurii\source\repos\Sobrecarga\Sobrecarga\bin\Debug\netcoreapp2.0\Sobrecarga.pdb
+C:\Users\yurii\source\repos\Sobrecarga\Sobrecarga\obj\Debug\netcoreapp2.0\Sobrecarga.csprojResolveAssemblyReference.cache
+C:\Users\yurii\source\repos\Sobrecarga\Sobrecarga\obj\Debug\netcoreapp2.0\Sobrecarga.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\Sobrecarga\Sobrecarga\obj\Debug\netcoreapp2.0\Sobrecarga.AssemblyInfoInputs.cache
+C:\Users\yurii\source\repos\Sobrecarga\Sobrecarga\obj\Debug\netcoreapp2.0\Sobrecarga.AssemblyInfo.cs
+C:\Users\yurii\source\repos\Sobrecarga\Sobrecarga\obj\Debug\netcoreapp2.0\Sobrecarga.dll
+C:\Users\yurii\source\repos\Sobrecarga\Sobrecarga\obj\Debug\netcoreapp2.0\Sobrecarga.pdb

@@ -1,0 +1,10 @@
+C:\Users\yurii\source\repos\Diretorios\Diretorios\bin\Debug\Diretorios.exe.config
+C:\Users\yurii\source\repos\Diretorios\Diretorios\bin\Debug\Diretorios.exe
+C:\Users\yurii\source\repos\Diretorios\Diretorios\bin\Debug\Diretorios.pdb
+C:\Users\yurii\source\repos\Diretorios\Diretorios\obj\Debug\Diretorios.csprojResolveAssemblyReference.cache
+C:\Users\yurii\source\repos\Diretorios\Diretorios\obj\Debug\Diretorios.Form1.resources
+C:\Users\yurii\source\repos\Diretorios\Diretorios\obj\Debug\Diretorios.Properties.Resources.resources
+C:\Users\yurii\source\repos\Diretorios\Diretorios\obj\Debug\Diretorios.csproj.GenerateResource.Cache
+C:\Users\yurii\source\repos\Diretorios\Diretorios\obj\Debug\Diretorios.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\Diretorios\Diretorios\obj\Debug\Diretorios.exe
+C:\Users\yurii\source\repos\Diretorios\Diretorios\obj\Debug\Diretorios.pdb

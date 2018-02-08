@@ -1,0 +1,7 @@
+C:\Users\yurii\source\repos\Polimorfismo_2\Polimorfismo_2\bin\Debug\Polimorfismo_2.exe.config
+C:\Users\yurii\source\repos\Polimorfismo_2\Polimorfismo_2\bin\Debug\Polimorfismo_2.exe
+C:\Users\yurii\source\repos\Polimorfismo_2\Polimorfismo_2\bin\Debug\Polimorfismo_2.pdb
+C:\Users\yurii\source\repos\Polimorfismo_2\Polimorfismo_2\obj\Debug\Polimorfismo_2.csprojResolveAssemblyReference.cache
+C:\Users\yurii\source\repos\Polimorfismo_2\Polimorfismo_2\obj\Debug\Polimorfismo_2.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\Polimorfismo_2\Polimorfismo_2\obj\Debug\Polimorfismo_2.exe
+C:\Users\yurii\source\repos\Polimorfismo_2\Polimorfismo_2\obj\Debug\Polimorfismo_2.pdb

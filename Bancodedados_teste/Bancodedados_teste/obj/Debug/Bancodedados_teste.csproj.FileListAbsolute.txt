@@ -1,0 +1,7 @@
+C:\Users\yurii\source\repos\Bancodedados_teste\Bancodedados_teste\bin\Debug\Bancodedados_teste.exe.config
+C:\Users\yurii\source\repos\Bancodedados_teste\Bancodedados_teste\bin\Debug\Bancodedados_teste.exe
+C:\Users\yurii\source\repos\Bancodedados_teste\Bancodedados_teste\bin\Debug\Bancodedados_teste.pdb
+C:\Users\yurii\source\repos\Bancodedados_teste\Bancodedados_teste\obj\Debug\Bancodedados_teste.csprojResolveAssemblyReference.cache
+C:\Users\yurii\source\repos\Bancodedados_teste\Bancodedados_teste\obj\Debug\Bancodedados_teste.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\Bancodedados_teste\Bancodedados_teste\obj\Debug\Bancodedados_teste.exe
+C:\Users\yurii\source\repos\Bancodedados_teste\Bancodedados_teste\obj\Debug\Bancodedados_teste.pdb

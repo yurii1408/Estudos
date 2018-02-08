@@ -1,0 +1,11 @@
+C:\Users\yurii\source\repos\Teste_laco_repeticao\Teste_laco_repeticao\obj\Debug\netcoreapp2.0\Teste_laco_repeticao.csprojResolveAssemblyReference.cache
+C:\Users\yurii\source\repos\Teste_laco_repeticao\Teste_laco_repeticao\obj\Debug\netcoreapp2.0\Teste_laco_repeticao.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\Teste_laco_repeticao\Teste_laco_repeticao\obj\Debug\netcoreapp2.0\Teste_laco_repeticao.AssemblyInfoInputs.cache
+C:\Users\yurii\source\repos\Teste_laco_repeticao\Teste_laco_repeticao\obj\Debug\netcoreapp2.0\Teste_laco_repeticao.AssemblyInfo.cs
+C:\Users\yurii\source\repos\Teste_laco_repeticao\Teste_laco_repeticao\bin\Debug\netcoreapp2.0\Teste_laco_repeticao.deps.json
+C:\Users\yurii\source\repos\Teste_laco_repeticao\Teste_laco_repeticao\bin\Debug\netcoreapp2.0\Teste_laco_repeticao.runtimeconfig.json
+C:\Users\yurii\source\repos\Teste_laco_repeticao\Teste_laco_repeticao\bin\Debug\netcoreapp2.0\Teste_laco_repeticao.runtimeconfig.dev.json
+C:\Users\yurii\source\repos\Teste_laco_repeticao\Teste_laco_repeticao\bin\Debug\netcoreapp2.0\Teste_laco_repeticao.dll
+C:\Users\yurii\source\repos\Teste_laco_repeticao\Teste_laco_repeticao\bin\Debug\netcoreapp2.0\Teste_laco_repeticao.pdb
+C:\Users\yurii\source\repos\Teste_laco_repeticao\Teste_laco_repeticao\obj\Debug\netcoreapp2.0\Teste_laco_repeticao.dll
+C:\Users\yurii\source\repos\Teste_laco_repeticao\Teste_laco_repeticao\obj\Debug\netcoreapp2.0\Teste_laco_repeticao.pdb

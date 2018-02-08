@@ -1,0 +1,10 @@
+c:\users\yurii\source\repos\Teste_timer\Teste_timer\bin\Debug\Teste_timer.exe.config
+c:\users\yurii\source\repos\Teste_timer\Teste_timer\bin\Debug\Teste_timer.exe
+c:\users\yurii\source\repos\Teste_timer\Teste_timer\bin\Debug\Teste_timer.pdb
+c:\users\yurii\source\repos\Teste_timer\Teste_timer\obj\Debug\Teste_timer.csprojResolveAssemblyReference.cache
+c:\users\yurii\source\repos\Teste_timer\Teste_timer\obj\Debug\Teste_timer.Form1.resources
+c:\users\yurii\source\repos\Teste_timer\Teste_timer\obj\Debug\Teste_timer.Properties.Resources.resources
+c:\users\yurii\source\repos\Teste_timer\Teste_timer\obj\Debug\Teste_timer.csproj.GenerateResource.Cache
+c:\users\yurii\source\repos\Teste_timer\Teste_timer\obj\Debug\Teste_timer.csproj.CoreCompileInputs.cache
+c:\users\yurii\source\repos\Teste_timer\Teste_timer\obj\Debug\Teste_timer.exe
+c:\users\yurii\source\repos\Teste_timer\Teste_timer\obj\Debug\Teste_timer.pdb

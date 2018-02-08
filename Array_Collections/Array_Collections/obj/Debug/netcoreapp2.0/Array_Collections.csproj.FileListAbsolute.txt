@@ -1,0 +1,11 @@
+C:\Users\yurii\source\repos\Array_Collections\Array_Collections\bin\Debug\netcoreapp2.0\Array_Collections.deps.json
+C:\Users\yurii\source\repos\Array_Collections\Array_Collections\bin\Debug\netcoreapp2.0\Array_Collections.runtimeconfig.json
+C:\Users\yurii\source\repos\Array_Collections\Array_Collections\bin\Debug\netcoreapp2.0\Array_Collections.runtimeconfig.dev.json
+C:\Users\yurii\source\repos\Array_Collections\Array_Collections\bin\Debug\netcoreapp2.0\Array_Collections.dll
+C:\Users\yurii\source\repos\Array_Collections\Array_Collections\bin\Debug\netcoreapp2.0\Array_Collections.pdb
+C:\Users\yurii\source\repos\Array_Collections\Array_Collections\obj\Debug\netcoreapp2.0\Array_Collections.csprojResolveAssemblyReference.cache
+C:\Users\yurii\source\repos\Array_Collections\Array_Collections\obj\Debug\netcoreapp2.0\Array_Collections.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\Array_Collections\Array_Collections\obj\Debug\netcoreapp2.0\Array_Collections.AssemblyInfoInputs.cache
+C:\Users\yurii\source\repos\Array_Collections\Array_Collections\obj\Debug\netcoreapp2.0\Array_Collections.AssemblyInfo.cs
+C:\Users\yurii\source\repos\Array_Collections\Array_Collections\obj\Debug\netcoreapp2.0\Array_Collections.dll
+C:\Users\yurii\source\repos\Array_Collections\Array_Collections\obj\Debug\netcoreapp2.0\Array_Collections.pdb

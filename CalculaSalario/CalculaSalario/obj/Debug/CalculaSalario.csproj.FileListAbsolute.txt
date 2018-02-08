@@ -1,0 +1,29 @@
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalario\CalculaSalario\bin\Debug\CalculaSalario.exe
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalario\CalculaSalario\bin\Debug\CalculaSalario.pdb
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.csprojResolveAssemblyReference.cache
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.Form1.resources
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.Properties.Resources.resources
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.csproj.GenerateResource.Cache
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.csproj.CoreCompileInputs.cache
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.exe
+C:\Users\Eco\Documents\Visual Studio 2017\Projects\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.pdb
+C:\Users\Yuri\source\repos\CalculaSalario\CalculaSalario\bin\Debug\CalculaSalario.exe.config
+C:\Users\Yuri\source\repos\CalculaSalario\CalculaSalario\bin\Debug\CalculaSalario.exe
+C:\Users\Yuri\source\repos\CalculaSalario\CalculaSalario\bin\Debug\CalculaSalario.pdb
+C:\Users\Yuri\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.csprojResolveAssemblyReference.cache
+C:\Users\Yuri\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.Form1.resources
+C:\Users\Yuri\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.Properties.Resources.resources
+C:\Users\Yuri\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.csproj.GenerateResource.Cache
+C:\Users\Yuri\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.csproj.CoreCompileInputs.cache
+C:\Users\Yuri\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.exe
+C:\Users\Yuri\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.pdb
+C:\Users\yurii\source\repos\CalculaSalario\CalculaSalario\bin\Debug\CalculaSalario.exe.config
+C:\Users\yurii\source\repos\CalculaSalario\CalculaSalario\bin\Debug\CalculaSalario.exe
+C:\Users\yurii\source\repos\CalculaSalario\CalculaSalario\bin\Debug\CalculaSalario.pdb
+C:\Users\yurii\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.csprojResolveAssemblyReference.cache
+C:\Users\yurii\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.Form1.resources
+C:\Users\yurii\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.Properties.Resources.resources
+C:\Users\yurii\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.csproj.GenerateResource.Cache
+C:\Users\yurii\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.exe
+C:\Users\yurii\source\repos\CalculaSalario\CalculaSalario\obj\Debug\CalculaSalario.pdb
