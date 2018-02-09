@@ -30,5 +30,38 @@ namespace BancoDedados_Form_SQLServer_SQLConnection
                 throw erro;
             }
         }
+
+        public void grava_dados (Modelo modelo)
+        {
+            try
+            {
+                conexao = new SqlConnection(conexao_sqlserver);
+                SqlCommand sql = new SqlCommand("insert into tb_bairro values (@codigo, @nome)", conexao);
+                sql.Parameters.AddWithValue("@codigo", modelo.Codigo);
+                sql.Parameters.AddWithValue("@nome", modelo.Nome);
+                conexao.Open();
+                sql.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public void exclui_dados(Modelo modelo)
+        {
+            try
+            {
+                conexao = new SqlConnection(conexao_sqlserver);
+                SqlCommand sql = new SqlCommand("delete from tb_bairro where codigo = @codigo", conexao);
+                sql.Parameters.AddWithValue("@codigo", modelo.Codigo);
+                conexao.Open();
+                sql.ExecuteNonQuery();
+            }
+            catch (Exception erro)
+            {
+                throw erro;
+            }
+        }
     }
 }

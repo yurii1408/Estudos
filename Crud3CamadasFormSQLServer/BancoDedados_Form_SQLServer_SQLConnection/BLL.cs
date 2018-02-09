@@ -27,5 +27,34 @@ namespace BancoDedados_Form_SQLServer_SQLConnection
             return datatable;
         }
 
+        public void grava_dados_dal( Modelo model)
+        {
+            try
+            {
+                dal = new DAL();
+
+                dal.grava_dados(model);
+            }
+            catch (Exception erro)
+            {
+                throw erro;
+            }
+            
+        }
+
+        public void exclui_dados_dal(Modelo modelo)
+        {
+            
+            try
+            {
+                DAL dal = new DAL();
+
+                dal.exclui_dados(modelo);
+            }
+            catch (Exception erro)
+            {
+                throw erro;
+            }
+        }
     }
 }

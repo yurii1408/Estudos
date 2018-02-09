@@ -22,21 +22,49 @@ namespace BancoDedados_Form_SQLServer_SQLConnection
 
         private void Form1_Load(object sender, EventArgs e)
         {
-                        
+            BLL bll = new BLL();
+
+            dgv_painel.DataSource = bll.lista_bairros_dal();
+        }
+                
+
+        private void btn_gravar_Click(object sender, EventArgs e)
+        {
+            
+            try
+            {
+                Modelo modelo = new Modelo();
+                modelo.Codigo = Convert.ToInt32(tbx_codigo_bairro.Text);
+                modelo.Nome = tbx_nome_bairro.Text;
+
+                BLL bll = new BLL();
+                bll.grava_dados_dal(modelo);
+                MessageBox.Show("Registro gravado com sucesso!");
+                dgv_painel.DataSource = bll.lista_bairros_dal();
+            }
+            catch(Exception erro)
+            {
+                MessageBox.Show("Erro: " + "\n" + "\n" + erro);
+            }
+            
         }
 
-        private void btn_mostrar_Click(object sender, EventArgs e)
+        private void btn_excluir_Click(object sender, EventArgs e)
         {
             try
             {
-                DAL dal = new DAL();
-                dgv_painel.DataSource = dal.lista_bairros();
+                Modelo modelo = new Modelo();
+                BLL bll = new BLL();
 
+                modelo.Codigo = Convert.ToInt32(tbx_codigo_bairro.Text);
+                bll.exclui_dados_dal(modelo);
 
+                MessageBox.Show("Registro excluido com sucesso!");
+                dgv_painel.DataSource = bll.lista_bairros_dal();
             }
             catch (Exception erro)
             {
-                MessageBox.Show("Erro: " + erro);
+                MessageBox.Show("Erro: " + "\n" + "\n" + erro);
             }
         }
     }

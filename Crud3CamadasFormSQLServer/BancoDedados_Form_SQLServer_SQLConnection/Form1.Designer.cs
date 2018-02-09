@@ -40,7 +40,6 @@
             this.btn_excluir = new System.Windows.Forms.Button();
             this.btn_alterar = new System.Windows.Forms.Button();
             this.dgv_painel = new System.Windows.Forms.DataGridView();
-            this.btn_mostrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_painel)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,7 +82,7 @@
             this.tbx_codigo_bairro.Location = new System.Drawing.Point(61, 54);
             this.tbx_codigo_bairro.Name = "tbx_codigo_bairro";
             this.tbx_codigo_bairro.Size = new System.Drawing.Size(52, 20);
-            this.tbx_codigo_bairro.TabIndex = 0;
+            this.tbx_codigo_bairro.TabIndex = 2;
             // 
             // label3
             // 
@@ -98,15 +97,15 @@
             // 
             this.tbx_nome_bairro.Location = new System.Drawing.Point(163, 54);
             this.tbx_nome_bairro.Name = "tbx_nome_bairro";
-            this.tbx_nome_bairro.Size = new System.Drawing.Size(149, 20);
-            this.tbx_nome_bairro.TabIndex = 0;
+            this.tbx_nome_bairro.Size = new System.Drawing.Size(230, 20);
+            this.tbx_nome_bairro.TabIndex = 3;
             // 
             // btn_novo
             // 
             this.btn_novo.Location = new System.Drawing.Point(15, 105);
             this.btn_novo.Name = "btn_novo";
             this.btn_novo.Size = new System.Drawing.Size(75, 23);
-            this.btn_novo.TabIndex = 1;
+            this.btn_novo.TabIndex = 5;
             this.btn_novo.Text = "Novo";
             this.btn_novo.UseVisualStyleBackColor = true;
             // 
@@ -115,25 +114,27 @@
             this.btn_gravar.Location = new System.Drawing.Point(96, 105);
             this.btn_gravar.Name = "btn_gravar";
             this.btn_gravar.Size = new System.Drawing.Size(75, 23);
-            this.btn_gravar.TabIndex = 1;
+            this.btn_gravar.TabIndex = 6;
             this.btn_gravar.Text = "Gravar";
             this.btn_gravar.UseVisualStyleBackColor = true;
+            this.btn_gravar.Click += new System.EventHandler(this.btn_gravar_Click);
             // 
             // btn_excluir
             // 
             this.btn_excluir.Location = new System.Drawing.Point(177, 105);
             this.btn_excluir.Name = "btn_excluir";
             this.btn_excluir.Size = new System.Drawing.Size(75, 23);
-            this.btn_excluir.TabIndex = 1;
+            this.btn_excluir.TabIndex = 7;
             this.btn_excluir.Text = "Excluir";
             this.btn_excluir.UseVisualStyleBackColor = true;
+            this.btn_excluir.Click += new System.EventHandler(this.btn_excluir_Click);
             // 
             // btn_alterar
             // 
             this.btn_alterar.Location = new System.Drawing.Point(258, 105);
             this.btn_alterar.Name = "btn_alterar";
             this.btn_alterar.Size = new System.Drawing.Size(75, 23);
-            this.btn_alterar.TabIndex = 1;
+            this.btn_alterar.TabIndex = 8;
             this.btn_alterar.Text = "Alterar";
             this.btn_alterar.UseVisualStyleBackColor = true;
             // 
@@ -145,16 +146,6 @@
             this.dgv_painel.Size = new System.Drawing.Size(378, 170);
             this.dgv_painel.TabIndex = 3;
             // 
-            // btn_mostrar
-            // 
-            this.btn_mostrar.Location = new System.Drawing.Point(318, 52);
-            this.btn_mostrar.Name = "btn_mostrar";
-            this.btn_mostrar.Size = new System.Drawing.Size(75, 23);
-            this.btn_mostrar.TabIndex = 1;
-            this.btn_mostrar.Text = "Mostrar";
-            this.btn_mostrar.UseVisualStyleBackColor = true;
-            this.btn_mostrar.Click += new System.EventHandler(this.btn_mostrar_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -164,7 +155,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btn_mostrar);
             this.Controls.Add(this.btn_alterar);
             this.Controls.Add(this.btn_excluir);
             this.Controls.Add(this.btn_gravar);
@@ -198,7 +188,6 @@
         private System.Windows.Forms.Button btn_excluir;
         private System.Windows.Forms.Button btn_alterar;
         private System.Windows.Forms.DataGridView dgv_painel;
-        private System.Windows.Forms.Button btn_mostrar;
     }
 }
 
