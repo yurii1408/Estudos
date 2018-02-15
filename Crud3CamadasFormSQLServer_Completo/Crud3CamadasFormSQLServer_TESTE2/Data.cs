@@ -73,7 +73,7 @@ namespace Crud3CamadasFormSQLServer_TESTE2
             try
             {
                 conexao = new SqlConnection(server);
-                SqlCommand sql = new SqlCommand("update tb_bairro set nome = @nome where codigo = @codigo",conexao);
+                SqlCommand sql = new SqlCommand("update tb_bairro set nome = @nome where codigo = @codigo", conexao);
                 sql.Parameters.AddWithValue("@codigo", model.Codigo);
                 sql.Parameters.AddWithValue("@nome", model.Nome);
                 conexao.Open();
@@ -84,6 +84,31 @@ namespace Crud3CamadasFormSQLServer_TESTE2
             {
                 throw erro;
             }
+        }
+
+        public Model pesquisa_bairros_data(string pesquisa)
+        {
+            try
+            {
+                conexao = new SqlConnection(server);
+                SqlCommand sql = new SqlCommand("select * from tb_bairro where nome like '"+pesquisa+"%'", conexao);
+                sql.Parameters.AddWithValue("@pesquisa", pesquisa);
+                conexao.Open();
+                SqlDataReader reader;
+                Model model = new Model();
+                reader = sql.ExecuteReader(CommandBehavior.CloseConnection);
+                while (reader.Read())
+                {
+                    model.Codigo = Convert.ToInt32(reader["codigo"]);
+                    model.Nome = reader["nome"].ToString();
+                }
+                return model;
+            }
+            catch (Exception erro)
+            {
+                throw erro;
+            }
+
         }
     }
 }

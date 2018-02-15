@@ -58,5 +58,18 @@ namespace Crud3CamadasFormSQLServer_TESTE2
             data.altera_bairros_data(model);
 
         }
+
+        public Model pesquisa_bairros_bus(string pesquisa)
+        {
+            try
+            {
+                
+                return data.pesquisa_bairros_data(pesquisa);
+            }
+            catch(Exception erro)
+            {
+                throw erro;
+            }
+        }
     }
 }

@@ -83,5 +83,24 @@ namespace Crud3CamadasFormSQLServer_TESTE2
                 MessageBox.Show("Erro:" + "\n" + "\n" + erro);
             }
         }
+
+        private void btn_pesquisar_Click(object sender, EventArgs e)
+        {
+            string pesquisa = tbx_pesquisa.Text;
+            Business bus = new Business();
+
+            try
+            {
+                Model model = new Model();
+                model = bus.pesquisa_bairros_bus(pesquisa);
+                tbx_codigo_bairro.Text = model.Codigo.ToString();
+                tbx_nome_bairro.Text = model.Nome;
+
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Erro:" + "\n" + "\n" + erro);
+            }
+        }
     }
 }

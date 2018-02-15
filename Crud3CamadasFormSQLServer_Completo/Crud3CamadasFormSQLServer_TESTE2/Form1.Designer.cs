@@ -125,6 +125,7 @@
             this.btn_pesquisar.TabIndex = 1;
             this.btn_pesquisar.Text = "Pesquisar";
             this.btn_pesquisar.UseVisualStyleBackColor = true;
+            this.btn_pesquisar.Click += new System.EventHandler(this.btn_pesquisar_Click);
             // 
             // tbx_nome_bairro
             // 
