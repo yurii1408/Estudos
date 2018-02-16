@@ -55,5 +55,12 @@ namespace video_aula_varios_exemplos
             Calculadora calc = new Calculadora();
             calc.ShowDialog();
         }
+
+        private void bairrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Bairros bairros = new Bairros();
+            bairros.ShowDialog();
+
+        }
     }
 }

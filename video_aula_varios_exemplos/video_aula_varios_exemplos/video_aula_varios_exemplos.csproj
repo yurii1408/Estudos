@@ -45,12 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bairros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bairros.Designer.cs">
+      <DependentUpon>Bairros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business.cs" />
     <Compile Include="Calculadora.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Calculadora.Designer.cs">
       <DependentUpon>Calculadora.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data.cs" />
     <Compile Include="Funcoes_matematicas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +83,7 @@
     <Compile Include="Masked.Designer.cs">
       <DependentUpon>Masked.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Relogio.cs">
@@ -83,6 +92,9 @@
     <Compile Include="Relogio.Designer.cs">
       <DependentUpon>Relogio.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Bairros.resx">
+      <DependentUpon>Bairros.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Calculadora.resx">
       <DependentUpon>Calculadora.cs</DependentUpon>
     </EmbeddedResource>
