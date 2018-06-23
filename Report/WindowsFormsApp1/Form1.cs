@@ -31,6 +31,10 @@ namespace WindowsFormsApp1
             //Parametros do relatorio
             List<ReportParameter> listReportParameters = new List<ReportParameter>();
             listReportParameters.Add(new ReportParameter("nome", tbx_nome.Text));
+            listReportParameters.Add(new ReportParameter("cpf", tbx_cpf.Text));
+            listReportParameters.Add(new ReportParameter("datanasc", tbx_datanasc.Text));
+            listReportParameters.Add(new ReportParameter("nacionalidade", tbx_nacionalidade.Text));
+            listReportParameters.Add(new ReportParameter("telefone", tbx_telefone.Text));
 
             //Passando parametros para o report
             reportviewer.LocalReport.SetParameters(listReportParameters);
@@ -57,6 +61,11 @@ namespace WindowsFormsApp1
 
             //Iniciando o arquivos
             Process.Start(nomearquivos);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
