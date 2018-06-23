@@ -1,4 +1,4 @@
-﻿namespace Report
+﻿namespace WindowsFormsApp1
 {
     partial class Form1
     {
@@ -34,7 +34,7 @@
             // 
             // btn_gerar
             // 
-            this.btn_gerar.Location = new System.Drawing.Point(208, 148);
+            this.btn_gerar.Location = new System.Drawing.Point(118, 106);
             this.btn_gerar.Name = "btn_gerar";
             this.btn_gerar.Size = new System.Drawing.Size(75, 23);
             this.btn_gerar.TabIndex = 0;
@@ -44,20 +44,19 @@
             // 
             // tbx_nome
             // 
-            this.tbx_nome.Location = new System.Drawing.Point(85, 72);
+            this.tbx_nome.Location = new System.Drawing.Point(39, 49);
             this.tbx_nome.Name = "tbx_nome";
-            this.tbx_nome.Size = new System.Drawing.Size(321, 20);
+            this.tbx_nome.Size = new System.Drawing.Size(241, 20);
             this.tbx_nome.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(503, 208);
+            this.ClientSize = new System.Drawing.Size(329, 162);
             this.Controls.Add(this.tbx_nome);
             this.Controls.Add(this.btn_gerar);
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
