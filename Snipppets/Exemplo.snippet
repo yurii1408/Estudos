@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Classe de Teste</Title>
+      <Shortcut>testc</Shortcut>
+      <Description>Trecho de código para uma classe de teste</Description>
+      <Author>Microsoft Corporation</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>Microsoft.VisualStudio.TestTools.UnitTesting</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Substitua pelo nome da classe de teste</ToolTip>
+          <Default>MyTestClass</Default>
+        </Literal>
+        <Literal Editable="false">
+          <ID>TestClass</ID>
+          <Function>SimpleTypeName(global::Microsoft.VisualStudio.TestTools.UnitTesting.TestClass)</Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[[$TestClass$]
+      public class $name$
+      {
+          $end$
+      }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
