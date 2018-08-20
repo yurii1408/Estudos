@@ -1,0 +1,9 @@
+C:\Users\yurii\Documents\GitHub\Estudos\GridList\GridList\bin\Debug\GridList.exe.config
+C:\Users\yurii\Documents\GitHub\Estudos\GridList\GridList\bin\Debug\GridList.exe
+C:\Users\yurii\Documents\GitHub\Estudos\GridList\GridList\bin\Debug\GridList.pdb
+C:\Users\yurii\Documents\GitHub\Estudos\GridList\GridList\obj\Debug\GridList.csprojAssemblyReference.cache
+C:\Users\yurii\Documents\GitHub\Estudos\GridList\GridList\obj\Debug\GridList.Properties.Resources.resources
+C:\Users\yurii\Documents\GitHub\Estudos\GridList\GridList\obj\Debug\GridList.csproj.GenerateResource.cache
+C:\Users\yurii\Documents\GitHub\Estudos\GridList\GridList\obj\Debug\GridList.csproj.CoreCompileInputs.cache
+C:\Users\yurii\Documents\GitHub\Estudos\GridList\GridList\obj\Debug\GridList.exe
+C:\Users\yurii\Documents\GitHub\Estudos\GridList\GridList\obj\Debug\GridList.pdb
