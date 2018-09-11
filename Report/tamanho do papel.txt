@@ -1,0 +1,15 @@
+Você pode definir o tamanho do papel em: Report -> Report Properties -> Page Setup
+
+Eu uso as seguinte configurações:
+
+paper size: A4
+size: 21 x 29,7 (landscape: 29,7 x 21)
+left/right margin: 1,3cm
+bottom/top margins: 1,5cm
+Então o tamanho máximo do relatório deverá ser:
+
+21 – (1,3*2) = 18,4cm
+29,7 – (1,3*2) = 27,1cm (landscape)
+
+******************************
+190*236
