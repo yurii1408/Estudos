@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>tryDATA</Title>
+      <Shortcut>tryDATA</Shortcut>
+      <Description>TryCatch para classe de dados</Description>
+      <Author>Yuri Pinheiro</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>MySql.Data.MySqlClient</Namespace>
+        </Import>
+		<Import>
+          <Namespace>System.Data</Namespace>
+        </Import>
+      </Imports>
+      <Code Language="csharp"><![CDATA[try       
+       {
+           conexao = new MySqlConnection(server);
+           conexao.Open();
+		   $end$
+       }
+       catch (Exception erro)
+       {
+           throw erro;
+       }
+       finally
+       {
+           conexao.Close();
+       }
+	   ]]></Code>	  
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

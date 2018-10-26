@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>isNullOrWhite</Title>
+      <Shortcut>isNullOrWhite</Shortcut>
+      <Description>isNullOrWhite</Description>
+      <Author>Yuri Pinheiro</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		<Declarations>
+			<Literal>
+				<ID>tbx</ID>
+				<ToolTip>TextBox</ToolTip>
+				<Default>tbx</Default>
+			</Literal>
+			<Literal>
+				<ID>atributo</ID>
+				<ToolTip>atributo</ToolTip>
+				<Default>atributo</Default>
+			</Literal>
+		</Declarations>
+      <Imports>
+        <Import>
+          <Namespace></Namespace>
+        </Import>
+      </Imports>
+      <Code Language="csharp"><![CDATA[if (!string.IsNullOrWhiteSpace($tbx$.Text)) { model.$atributo$ = $tbx$.Text;}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
