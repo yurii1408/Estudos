@@ -1,0 +1,10 @@
+C:\Users\yurii\source\repos\FastReportTeste1\FastReportTeste1\bin\Debug\FastReportTeste1.exe.config
+C:\Users\yurii\source\repos\FastReportTeste1\FastReportTeste1\bin\Debug\FastReportTeste1.exe
+C:\Users\yurii\source\repos\FastReportTeste1\FastReportTeste1\bin\Debug\FastReportTeste1.pdb
+C:\Users\yurii\source\repos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.csprojAssemblyReference.cache
+C:\Users\yurii\source\repos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.Form1.resources
+C:\Users\yurii\source\repos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.Properties.Resources.resources
+C:\Users\yurii\source\repos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.csproj.GenerateResource.cache
+C:\Users\yurii\source\repos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.csproj.CoreCompileInputs.cache
+C:\Users\yurii\source\repos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.exe
+C:\Users\yurii\source\repos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.pdb

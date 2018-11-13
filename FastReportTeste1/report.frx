@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="11/12/2018 20:57:56" ReportInfo.Modified="11/12/2018 21:19:39" ReportInfo.CreatorVersion="2018.4.11.0">
+  <ScriptText>using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {
+
+    private void Data1_BeforePrint(object sender, EventArgs e)
+    {
+      MessageBox.Show(&quot;&quot;);
+    }
+  }
+}
+</ScriptText>
+  <Styles Name="Standard">
+    <Style Name="Title" Font="Arial, 12pt, style=Bold"/>
+    <Style Name="Header" Font="Arial, 10pt, style=Bold"/>
+    <Style Name="Group" Font="Arial, 10pt, style=Bold"/>
+    <Style Name="Data"/>
+    <Style Name="Footer"/>
+    <Style Name="EvenRows" Fill.Color="WhiteSmoke"/>
+  </Styles>
+  <Dictionary>
+    <OdbcDataConnection Name="Connection" ConnectionString="rijcmlqvD1+QOp4FO8N/mK0gLsQbXwXrkm1gkW7+YMmfeJkZ2g=">
+      <TableDataSource Name="Table" Alias="SQL" DataType="System.Int32" Enabled="true" SelectCommand="SELECT&#13;&#10;&#13;&#10;IDAUDIENCIA,&#13;&#10;ID_PROCESSO,&#13;&#10;DILIGENTE,&#13;&#10;DATAAUDIENCIA,&#13;&#10;EXECUTADA,&#13;&#10;ID_OUTORGADO,&#13;&#10;OBSERVACOES,&#13;&#10;DATACADASTRO&#13;&#10;&#13;&#10;FROM TPROAUDIENCIA&#13;&#10;&#13;&#10;WHERE &#13;&#10;&#13;&#10;IDUSUARIOCADASTRO =@ID">
+        <Column Name="IDAUDIENCIA" DataType="System.Int32"/>
+        <Column Name="ID_PROCESSO" DataType="System.Int32"/>
+        <Column Name="DILIGENTE" DataType="System.String"/>
+        <Column Name="DATAAUDIENCIA" DataType="System.DateTime"/>
+        <Column Name="EXECUTADA" DataType="System.String"/>
+        <Column Name="ID_OUTORGADO" DataType="System.Int32"/>
+        <Column Name="OBSERVACOES" DataType="System.String"/>
+        <Column Name="DATACADASTRO" DataType="System.DateTime"/>
+        <CommandParameter Name="@ID" DataType="10" Size="11" Expression="[@ID]" DefaultValue="4"/>
+        <CommandParameter Name="ID" DataType="10" Size="11" Expression="[ID]" DefaultValue="4"/>
+        <CommandParameter Name="X" DataType="22" Size="11" Expression="[X]" DefaultValue="4"/>
+        <CommandParameter Name="@X" DataType="10" Size="11" Expression="[@X]" DefaultValue="4"/>
+      </TableDataSource>
+    </OdbcDataConnection>
+    <Parameter Name="ID" DataType="System.Int32" Expression="4"/>
+    <Parameter Name="@ID" DataType="System.Int32" Expression="4"/>
+    <Parameter Name="X" DataType="System.Int32" Expression="4"/>
+    <Parameter Name="@X" DataType="System.Int32" Expression="4"/>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Text1" Width="718.2" Height="37.8" Dock="Fill" Text="[ID]" HorzAlign="Center" VertAlign="Center" Font="Arial, 12pt, style=Bold" Style="Title"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="56.7">
+      <TextObject Name="Text3" Width="359.1" Height="18.9" Text="IDAUDIENCIA" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text5" Left="359.1" Width="359.1" Height="18.9" Text="OBSERVACOES" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text8" Top="28.35" Width="94.5" Height="18.9" Text="[ID]"/>
+      <TextObject Name="Text9" Left="94.5" Top="28.35" Width="94.5" Height="18.9" Text="[@ID]"/>
+      <TextObject Name="Text10" Left="189" Top="28.35" Width="94.5" Height="18.9" Text="[X]"/>
+      <TextObject Name="Text11" Left="283.5" Top="28.35" Width="94.5" Height="18.9" Text="[@X]"/>
+    </PageHeaderBand>
+    <GroupHeaderBand Name="GroupHeader1" Top="102.5" Width="718.2" Height="18.9" Condition="[SQL.IDAUDIENCIA]">
+      <TextObject Name="Text6" Width="718.2" Height="18.9" Dock="Fill" Text="[SQL.IDAUDIENCIA]" Font="Arial, 10pt, style=Bold" Style="Group"/>
+      <DataBand Name="Data1" Top="125.4" Width="718.2" Height="18.9" EvenStyle="EvenRows" BeforePrintEvent="Data1_BeforePrint">
+        <TextObject Name="Text2" Width="359.1" Height="18.9" Text="[SQL.IDAUDIENCIA]" Style="Data"/>
+        <TextObject Name="Text4" Left="359.1" Width="359.1" Height="18.9" Text="[SQL.OBSERVACOES]" Style="Data"/>
+      </DataBand>
+      <GroupFooterBand Name="GroupFooter1" Top="148.3" Width="718.2" Height="18.9"/>
+    </GroupHeaderBand>
+    <PageFooterBand Name="PageFooter1" Top="171.2" Width="718.2" Height="18.9">
+      <TextObject Name="Text7" Width="718.2" Height="18.9" Dock="Fill" Text="[PageN]" HorzAlign="Right" Style="Footer"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>
