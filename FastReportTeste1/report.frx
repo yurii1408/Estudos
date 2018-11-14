@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Report ScriptLanguage="CSharp" ReportInfo.Created="11/12/2018 20:57:56" ReportInfo.Modified="11/12/2018 21:19:39" ReportInfo.CreatorVersion="2018.4.11.0">
+<Report ScriptLanguage="CSharp" ReportInfo.Created="11/13/2018 22:18:03" ReportInfo.Modified="11/13/2018 23:13:36" ReportInfo.CreatorVersion="2018.4.11.0">
   <ScriptText>using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,66 +18,61 @@ namespace FastReport
 {
   public class ReportScript
   {
-
-    private void Data1_BeforePrint(object sender, EventArgs e)
-    {
-      MessageBox.Show(&quot;&quot;);
+    private void _StartProject(object sender, EventArgs e){
+      TableDataSource tds = Report.GetDataSource(&quot;SQL&quot;) as TableDataSource;
+      String fase =  ((String)Report.GetParameterValue(&quot;FASE&quot;));
+      tds.SelectCommand =
+        &quot;SELECT                                                                    &quot;+
+        &quot;PRO.IDPROCESSO,                                                           &quot;+
+        &quot;ENV.NOME,                                                                 &quot;+
+        &quot;PRO.VALORACAO,                                                            &quot;+
+        &quot;PRO.DATACADASTRO                                                          &quot;+
+        &quot;FROM TPROPROCESSO PRO                                                     &quot;+
+        &quot;LEFT OUTER JOIN TPROENVOLVIDO ENV ON (PRO.ID_ENVOLVIDO = ENV.IDENVOLVIDO) &quot;+
+        &quot;WHERE PRO.FASE = '&quot;+fase+&quot;';                                              &quot;;
+ 
     }
+
   }
 }
 </ScriptText>
-  <Styles Name="Standard">
+  <Styles Name="Gray">
     <Style Name="Title" Font="Arial, 12pt, style=Bold"/>
-    <Style Name="Header" Font="Arial, 10pt, style=Bold"/>
+    <Style Name="Header" Fill.Color="Gainsboro" Font="Arial, 10pt, style=Bold"/>
     <Style Name="Group" Font="Arial, 10pt, style=Bold"/>
     <Style Name="Data"/>
-    <Style Name="Footer"/>
+    <Style Name="Footer" Fill.Color="Gainsboro"/>
     <Style Name="EvenRows" Fill.Color="WhiteSmoke"/>
   </Styles>
   <Dictionary>
     <OdbcDataConnection Name="Connection" ConnectionString="rijcmlqvD1+QOp4FO8N/mK0gLsQbXwXrkm1gkW7+YMmfeJkZ2g=">
-      <TableDataSource Name="Table" Alias="SQL" DataType="System.Int32" Enabled="true" SelectCommand="SELECT&#13;&#10;&#13;&#10;IDAUDIENCIA,&#13;&#10;ID_PROCESSO,&#13;&#10;DILIGENTE,&#13;&#10;DATAAUDIENCIA,&#13;&#10;EXECUTADA,&#13;&#10;ID_OUTORGADO,&#13;&#10;OBSERVACOES,&#13;&#10;DATACADASTRO&#13;&#10;&#13;&#10;FROM TPROAUDIENCIA&#13;&#10;&#13;&#10;WHERE &#13;&#10;&#13;&#10;IDUSUARIOCADASTRO =@ID">
-        <Column Name="IDAUDIENCIA" DataType="System.Int32"/>
-        <Column Name="ID_PROCESSO" DataType="System.Int32"/>
-        <Column Name="DILIGENTE" DataType="System.String"/>
-        <Column Name="DATAAUDIENCIA" DataType="System.DateTime"/>
-        <Column Name="EXECUTADA" DataType="System.String"/>
-        <Column Name="ID_OUTORGADO" DataType="System.Int32"/>
-        <Column Name="OBSERVACOES" DataType="System.String"/>
+      <TableDataSource Name="SQL" DataType="System.Int32" PropName="Table" Enabled="true" TableName="SQL" SelectCommand="SELECT&#13;&#10;PRO.IDPROCESSO,&#13;&#10;ENV.NOME,&#13;&#10;PRO.VALORACAO,&#13;&#10;PRO.DATACADASTRO&#13;&#10;FROM TPROPROCESSO PRO&#13;&#10;LEFT OUTER JOIN TPROENVOLVIDO ENV ON (PRO.ID_ENVOLVIDO = ENV.IDENVOLVIDO)">
+        <Column Name="IDPROCESSO" DataType="System.Int32"/>
+        <Column Name="NOME" DataType="System.String"/>
+        <Column Name="VALORACAO" DataType="System.Decimal"/>
         <Column Name="DATACADASTRO" DataType="System.DateTime"/>
-        <CommandParameter Name="@ID" DataType="10" Size="11" Expression="[@ID]" DefaultValue="4"/>
-        <CommandParameter Name="ID" DataType="10" Size="11" Expression="[ID]" DefaultValue="4"/>
-        <CommandParameter Name="X" DataType="22" Size="11" Expression="[X]" DefaultValue="4"/>
-        <CommandParameter Name="@X" DataType="10" Size="11" Expression="[@X]" DefaultValue="4"/>
       </TableDataSource>
     </OdbcDataConnection>
-    <Parameter Name="ID" DataType="System.Int32" Expression="4"/>
-    <Parameter Name="@ID" DataType="System.Int32" Expression="4"/>
-    <Parameter Name="X" DataType="System.Int32" Expression="4"/>
-    <Parameter Name="@X" DataType="System.Int32" Expression="4"/>
+    <Parameter Name="FASE" DataType="System.String"/>
   </Dictionary>
   <ReportPage Name="Page1">
     <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
-      <TextObject Name="Text1" Width="718.2" Height="37.8" Dock="Fill" Text="[ID]" HorzAlign="Center" VertAlign="Center" Font="Arial, 12pt, style=Bold" Style="Title"/>
+      <TextObject Name="Text1" Width="718.2" Height="37.8" Dock="Fill" Text="SQL" HorzAlign="Center" VertAlign="Center" Font="Arial, 12pt, style=Bold" Style="Title"/>
     </ReportTitleBand>
-    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="56.7">
-      <TextObject Name="Text3" Width="359.1" Height="18.9" Text="IDAUDIENCIA" Font="Arial, 10pt, style=Bold" Style="Header"/>
-      <TextObject Name="Text5" Left="359.1" Width="359.1" Height="18.9" Text="OBSERVACOES" Font="Arial, 10pt, style=Bold" Style="Header"/>
-      <TextObject Name="Text8" Top="28.35" Width="94.5" Height="18.9" Text="[ID]"/>
-      <TextObject Name="Text9" Left="94.5" Top="28.35" Width="94.5" Height="18.9" Text="[@ID]"/>
-      <TextObject Name="Text10" Left="189" Top="28.35" Width="94.5" Height="18.9" Text="[X]"/>
-      <TextObject Name="Text11" Left="283.5" Top="28.35" Width="94.5" Height="18.9" Text="[@X]"/>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="18.9" BeforeLayoutEvent="_StartProject">
+      <TextObject Name="Text3" Width="75.6" Height="18.9" Fill.Color="Gainsboro" Text="IDPROCESSO" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text5" Left="75.6" Width="283.5" Height="18.9" Fill.Color="Gainsboro" Text="NOME" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text7" Left="359.1" Width="179.55" Height="18.9" Fill.Color="Gainsboro" Text="VALORACAO" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text9" Left="538.65" Width="179.55" Height="18.9" Fill.Color="Gainsboro" Text="DATACADASTRO" Font="Arial, 10pt, style=Bold" Style="Header"/>
     </PageHeaderBand>
-    <GroupHeaderBand Name="GroupHeader1" Top="102.5" Width="718.2" Height="18.9" Condition="[SQL.IDAUDIENCIA]">
-      <TextObject Name="Text6" Width="718.2" Height="18.9" Dock="Fill" Text="[SQL.IDAUDIENCIA]" Font="Arial, 10pt, style=Bold" Style="Group"/>
-      <DataBand Name="Data1" Top="125.4" Width="718.2" Height="18.9" EvenStyle="EvenRows" BeforePrintEvent="Data1_BeforePrint">
-        <TextObject Name="Text2" Width="359.1" Height="18.9" Text="[SQL.IDAUDIENCIA]" Style="Data"/>
-        <TextObject Name="Text4" Left="359.1" Width="359.1" Height="18.9" Text="[SQL.OBSERVACOES]" Style="Data"/>
-      </DataBand>
-      <GroupFooterBand Name="GroupFooter1" Top="148.3" Width="718.2" Height="18.9"/>
-    </GroupHeaderBand>
-    <PageFooterBand Name="PageFooter1" Top="171.2" Width="718.2" Height="18.9">
-      <TextObject Name="Text7" Width="718.2" Height="18.9" Dock="Fill" Text="[PageN]" HorzAlign="Right" Style="Footer"/>
+    <DataBand Name="Data1" Top="64.7" Width="718.2" Height="18.9" EvenStyle="EvenRows" DataSource="SQL">
+      <TextObject Name="Text2" Width="75.6" Height="18.9" Text="[SQL.IDPROCESSO]" Style="Data"/>
+      <TextObject Name="Text4" Left="75.6" Width="283.5" Height="18.9" Text="[SQL.NOME]" Style="Data"/>
+      <TextObject Name="Text6" Left="359.1" Width="179.55" Height="18.9" Text="[SQL.VALORACAO]" Style="Data"/>
+      <TextObject Name="Text8" Left="538.65" Width="179.55" Height="18.9" Text="[SQL.DATACADASTRO]" Style="Data"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="87.6" Width="718.2" Height="18.9">
+      <TextObject Name="Text10" Width="718.2" Height="18.9" Dock="Fill" Fill.Color="Gainsboro" Text="[PageN]" HorzAlign="Right" Style="Footer"/>
     </PageFooterBand>
   </ReportPage>
 </Report>
