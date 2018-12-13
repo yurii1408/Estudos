@@ -23,3 +23,16 @@ C:\Users\yurii\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\bin\De
 C:\Users\yurii\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.csproj.CopyComplete
 C:\Users\yurii\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\bin\Debug\FastReport.MySQL.dll
 C:\Users\yurii\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\bin\Debug\FastReport.MySQL.pdb
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\bin\Debug\FastReportTeste1.exe.config
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\bin\Debug\FastReportTeste1.exe
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\bin\Debug\FastReportTeste1.pdb
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\bin\Debug\FastReport.MySQL.pdb
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\bin\Debug\MySql.Data.xml
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.csprojAssemblyReference.cache
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.Form1.resources
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.Properties.Resources.resources
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.csproj.GenerateResource.cache
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.csproj.CoreCompileInputs.cache
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.csproj.CopyComplete
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.exe
+C:\Users\yurie\Documents\GitHub\Estudos\FastReportTeste1\FastReportTeste1\obj\Debug\FastReportTeste1.pdb
